@@ -21,7 +21,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/pngquant:$PATH"
 
 # Update dotfiles from github repo
-updatedotfiles="source bootstrap.sh"
+alias updatedotfiles="source bootstrap.sh"
 
 # pngquant alias
 alias pngoptim="pngquant *.png --ext .png -v -f"
