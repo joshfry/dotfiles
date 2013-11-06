@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# Make sure we’re using the latest Homebrew
+brew update
+
+# Upgrade any already-installed formulae
+brew upgrade
+
+# Install other useful binaries
+# brew install git
+# brew install node
+brew install tree
+
+# Install native apps
+# brew tap phinze/homebrew-cask
+# brew install brew-cask
+
+# function installcask() {
+#   brew cask install "${@}" 2> /dev/null
+# }
+
+# installcask dropbox
+# installcask google-chrome
+# installcask google-chrome-canary
+# installcask imageoptim
+# installcask iterm2
+# installcask sublime-text
+
+# Remove outdated versions from the cellar
+brew cleanup
