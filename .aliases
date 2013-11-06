@@ -21,7 +21,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/pngquant:$PATH"
 
 # Update dotfiles from github repo
-alias updatedotfiles="source bootstrap.sh"
+alias udot="source bootstrap.sh"
 
 # pngquant alias
 alias pngoptim="pngquant *.png --ext .png -v -f"
@@ -36,7 +36,7 @@ alias ~="cd ~"
 alias ss="cd ~/sites"
 alias dd="cd ~/desktop"
 
-alias dotfiles="cd ~/dotfiles"
+alias dot="cd ~/dotfiles"
 
 alias mba="cd /volumes/Development/Trunk/Equarium"
 alias sitecore="cd /volumes/inetpub/wwwroot/sitecore/Website"
