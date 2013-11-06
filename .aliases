@@ -20,6 +20,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # pngquant - tinypng from the commandline
 export PATH="/usr/local/pngquant:$PATH"
 
+# Update dotfiles from github repo
+updatedotfiles="source bootstrap.sh"
+
 # pngquant alias
 alias pngoptim="pngquant *.png --ext .png -v -f"
 
