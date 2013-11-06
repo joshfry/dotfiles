@@ -33,6 +33,8 @@ alias ~="cd ~"
 alias ss="cd ~/sites"
 alias dd="cd ~/desktop"
 
+alias dotfiles="cd ~/dotfiles"
+
 alias mba="cd /volumes/Development/Trunk/Equarium"
 alias sitecore="cd /volumes/inetpub/wwwroot/sitecore/Website"
 
