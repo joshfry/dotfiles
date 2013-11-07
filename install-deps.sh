@@ -9,7 +9,7 @@
 # rvm for the rubiess
 #Paul does: curl -L https://get.rvm.io | bash -s stable --ruby
 #I do this one as it adds dependencies as well
-\curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
+# \curl -L https://get.rvm.io | bash -s stable --rails --autolibs=enable
 
 # https://github.com/isaacs/nave
 # needs npm, obviously.

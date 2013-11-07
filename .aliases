@@ -14,7 +14,7 @@ alias ~="cd ~"
 alias -- -="cd -"
 
 # Shortcuts
-alias mkd="mkdir "
+# alias mkd="mkdir "
 alias mkf="touch "
 alias cl="clear"
 alias o="open"
