@@ -23,7 +23,7 @@ alias s="subl ."
 alias g="git"
 
 # Locations
-alias ss="cd ~/sites"
+alias ss="cd ~/Projects"
 alias dd="cd ~/desktop"
 alias dot="cd ~/dotfiles"
 alias pow="cd ~/.pow"
