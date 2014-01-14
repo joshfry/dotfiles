@@ -1,3 +1,6 @@
+#rbenv
+eval "$(rbenv init -)"
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
