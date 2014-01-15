@@ -24,7 +24,8 @@ alias g="git"
 
 # Locations
 alias ss="cd ~/Projects"
-alias dd="cd ~/desktop"
+alias dd="cd ~/Desktop"
+alias hh="cd ~/.ssh"
 alias dot="cd ~/dotfiles"
 alias pow="cd ~/.pow"
 alias dropbox="cd ~/Dropbox"
@@ -38,7 +39,7 @@ alias gcm="git checkout master"
 alias gac=gitAddAndCommit
 gitAddAndCommit() {
   git add .
-  git commit -a -m "$*"
+  git commit -am "$*"
 }
 
 # pngquant alias
