@@ -27,12 +27,12 @@ alias mm="middleman"
 alias ss="cd ~/Projects"
 alias dd="cd ~/Desktop"
 alias hh="cd ~/.ssh"
-alias dotfiles="cd ~/dotfiles"
 alias pow="cd ~/.pow"
 alias dropbox="cd ~/Dropbox"
 alias downloads="cd ~/Downloads"
 
 # Update dotfiles from github repo
+alias dot="cd ~/dotfiles"
 alias udot="source bootstrap.sh"
 
 # git
