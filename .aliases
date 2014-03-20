@@ -21,7 +21,7 @@ alias o="open"
 alias oo="open ."
 alias s="subl ."
 alias g="git"
-alias mm="middleman"
+alias mm="bundle exec middleman"
 
 # Locations
 alias ss="cd ~/Projects"
