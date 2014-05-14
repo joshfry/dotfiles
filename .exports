@@ -12,4 +12,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/pngquant:$PATH"
 
 # Bay Photo Gem Server
-export SSL_CERT_FILE=$HOME/certs/cert.pem
+export SSL_CERT_FILE=$HOME/certs/bp_gem.pem
