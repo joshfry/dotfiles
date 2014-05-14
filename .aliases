@@ -43,6 +43,9 @@ gitAddAndCommit() {
   git commit -am "$*"
 }
 
+# Undo anything I've done (Use with caution)
+alias gitundo="git reset --hard HEAD && git clean -f -d"
+
 # pngquant alias
 alias pngoptim="pngquant *.png --ext .png -v -f"
 
