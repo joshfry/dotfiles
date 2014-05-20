@@ -22,7 +22,7 @@ alias oo="open ."
 alias s="subl ."
 alias g="git"
 alias mm="bundle exec middleman"
-alias sshot="screencapture"
+alias ssho="screencapture"
 
 # Locations
 alias ss="cd ~/Projects"
