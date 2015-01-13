@@ -1,7 +1,3 @@
-[user]
-  name = joshfry
-  email = joshdfry@me.com
-
 [alias]
 	co = checkout
 	br = branch
