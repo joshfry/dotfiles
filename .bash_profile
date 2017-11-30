@@ -4,6 +4,11 @@ eval "$(rbenv init -)"
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
+export EDITOR="nano"
+
+# rmagick
+export PKG_CONFIG_PATH="/opt/local/lib/pkgconfig:$PKG_CONFIG_PATH"
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.

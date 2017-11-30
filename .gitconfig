@@ -1,9 +1,9 @@
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
-	last = log -1 HEAD
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  last = log -1 HEAD
 
   # View the SHA, description, and history graph of the latest 20 commits
   l = log --pretty=oneline -n 20 --graph
@@ -58,4 +58,20 @@
   trustExitCode = true
 
 [push]
-  default = matching
+  default = current
+[user]
+  name = joshfry
+  email = joshdfry@me.com
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
+# [pull]
+#   rebase = true
